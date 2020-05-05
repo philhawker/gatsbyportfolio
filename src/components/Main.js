@@ -69,6 +69,7 @@ class Main extends React.Component {
         </article>
         {/* END ABOUT */}
 
+        {/* PROJECTS */}
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
@@ -181,7 +182,9 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        {/* END PROJECTS */}
 
+        {/* SKILLS */}
         <article
           id="skills"
           className={`${this.props.article === 'skills' ? 'active' : ''} ${
@@ -204,7 +207,9 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        {/* END SKILLS */}
 
+        {/* CONTACT */}
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
@@ -265,6 +270,7 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
+        {/* END CONTACT */}
       </div >
     )
   }
