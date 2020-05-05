@@ -39,15 +39,15 @@
     background-image: url("../../images/hawker.jpg");
     background-position: fill;
     background-size: 100%;
-    background-position-y: -4.5em;
+    background-position-y: -5em;
     background-repeat: no-repeat;
     z-index: 1;
   }
 
   .body.is-article-visible & {
     &:after {
-      @include vendor("transform", "scale(1.0825)");
-      // @include vendor('filter', 'blur(0.2rem)');
+      @include vendor("transform", "scale(1.15)");
+      @include vendor("filter", "blur(0.1rem)");
     }
   }
 

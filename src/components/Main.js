@@ -25,7 +25,7 @@ class Main extends React.Component {
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -59,7 +59,7 @@ class Main extends React.Component {
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
@@ -88,7 +88,7 @@ class Main extends React.Component {
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -111,10 +111,10 @@ class Main extends React.Component {
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Me</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
