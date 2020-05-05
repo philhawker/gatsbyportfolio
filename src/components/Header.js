@@ -10,10 +10,12 @@ const Header = props => (
       <div className="inner">
         <h1>Phil Hawker</h1>
         <p>
-          Husband. Father. Meme Enthusiast. Full Stack Engineer
+          Husband. Father. Full Stack Engineer. Down-to-earth nerd.
+          <br />
+          I'm also a meme enthusiast.
           <br />
           Take a scroll through {' '}
-          <a href="https://www.facebook.com/phil.hawker.7">my memes</a> on my facebook profile.
+          <a href="https://www.facebook.com/phil.hawker.7">my memes</a> and have laugh.
         </p>
       </div>
     </div>

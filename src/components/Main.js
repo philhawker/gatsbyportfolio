@@ -22,8 +22,8 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
@@ -33,24 +33,13 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilding a motorcycle engine to upgrading the family computer's ram, what is now considered pathetic, to 512 MB. Even as an adult, successfully assembling my daughters crib is chalked up as a win for me.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            I've always felt that these traits I had discovered were critical components to my overall happiness and success in my career, however, I had no idea what field these should be applied to. Until I took a leap of faith and began my development journey.
+          </p>
+          <p>
+            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. And it was hardcore! I love working with many different frameworks and libraries such as Flask, Django, Node, and most of all React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
           </p>
           {close}
         </article>
@@ -167,7 +156,7 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
-      </div>
+      </div >
     )
   }
 }
