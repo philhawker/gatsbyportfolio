@@ -45,13 +45,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -74,13 +74,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About Me</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
