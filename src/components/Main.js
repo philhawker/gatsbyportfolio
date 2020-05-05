@@ -97,7 +97,7 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
-          <button><a href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
+          <button ><a style={{ textDecoration: "none" }} href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
           {close}
         </article>
         <article
@@ -107,7 +107,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects 2</h2>
+          <h2 className="major">Bottega Course Portfolio</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
