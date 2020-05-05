@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import family from '../images/family.jpg'
 import engagement from '../images/engagement.jpg'
+import fantasticfries from '../images/fantasticfries.png'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -77,9 +78,9 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects 1</h2>
+          <h2 className="major">Fantastic Fries</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={fantasticfries} alt="" />
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
@@ -96,6 +97,7 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
+          <button><a href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
           {close}
         </article>
         <article
