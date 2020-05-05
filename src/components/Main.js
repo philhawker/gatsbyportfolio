@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import family from '../images/family.jpg'
+import engagement from '../images/engagement.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -21,6 +22,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        {/* ABOUT */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -29,6 +31,28 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
+          <span className="image main">
+            <img src={engagement} alt="" />
+          </span>
+          <p>
+            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilding a motorcycle engine to upgrading the family computer's ram, what is now considered pathetic, to 512 MB. Even as an adult, successfully assembling my daughters crib is chalked up as a win for me.
+          </p>
+          <p>
+            I've always felt that these traits I had discovered were critical components to my overall happiness and success in my career, however, I had no idea what field these should be applied to. Until I took a leap of faith and began my development journey.
+          </p>
+          <p>
+            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. And it was hardcore! I love working with many different frameworks and libraries such as Flask, Django, Node, and most of all React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
+          </p>
+          {close}
+        </article>
+        <article
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+            }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">My Family</h2>
           <span className="image main">
             <img src={family} alt="" />
           </span>
@@ -43,6 +67,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        {/* END ABOUT */}
 
         <article
           id="projects"
