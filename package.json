@@ -1,5 +1,5 @@
 {
-  "name": "Phil Hawker Portfolio",
+  "name": "phil-hawker-portfolio",
   "description": "Gatsby based portfolio",
   "version": "1.0.0",
   "engines": {
@@ -25,7 +25,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "devDependencies": {
     "prettier": "^1.19.1"
