@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-start-dimension-v2',
+    title: 'Phil Hawker Portfolio',
     author: 'Phil Hawker',
     description: 'Gatsby based portfolio',
   },
@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-start-dimension-v2',
+        name: 'Phil Hawker Portfolio',
         short_name: 'phil',
         start_url: '/',
         background_color: '#663399',
