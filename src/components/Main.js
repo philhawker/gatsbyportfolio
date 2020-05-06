@@ -3,7 +3,7 @@ import React from 'react'
 import family from '../images/family.jpg'
 import engagement from '../images/engagement.jpg'
 import fantasticfries from '../images/fantasticfries.png'
-import bottegaportfolio from '../images/bottegaportfolio.png'
+import bottegaportfolio from '../images/bottegaportfolio.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
