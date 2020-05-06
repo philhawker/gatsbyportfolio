@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = props => (
-  <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+  <header id="header" style={props.timeout ? { display: 'none' } : {}} >
     <div className="logo">
       <span className="icon fa-diamond"></span>
     </div>
@@ -15,7 +15,7 @@ const Header = props => (
           I'm also a meme enthusiast.
           <br />
           Take a scroll through {' '}
-          <a href="https://www.facebook.com/phil.hawker.7">my memes</a> and have laugh.
+          <a href="https://www.facebook.com/phil.hawker.7">my memes</a> and have a laugh.
         </p>
       </div>
     </div>
