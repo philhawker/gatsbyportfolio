@@ -2,6 +2,9 @@
   "name": "Phil Hawker Portfolio",
   "description": "Gatsby based portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.12.0"
+  },
   "author": "Phil Hawker",
   "dependencies": {
     "gatsby": "^2.19.5",
