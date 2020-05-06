@@ -3,6 +3,7 @@ import React from 'react'
 import family from '../images/family.jpg'
 import engagement from '../images/engagement.jpg'
 import fantasticfries from '../images/fantasticfries.png'
+import bottegaportfolio from '../images/bottegaportfolio.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -97,7 +98,7 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
-          <button ><a style={{ textDecoration: "none" }} href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
+          <button ><a href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
           {close}
         </article>
         <article
@@ -109,7 +110,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Bottega Course Portfolio</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={bottegaportfolio} alt="" />
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
@@ -126,6 +127,8 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
+          <button ><a href="https://philhawker.herokuapp.com/">Visit My Bottega Course Portfolio</a></button>
+
           {close}
         </article>
         <article
