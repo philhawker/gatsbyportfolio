@@ -208,48 +208,50 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-          <span style={{ display: "flex" }} >
+          <span style={{ display: "flex", margin: "0" }} >
             <div className="image main" style={{ display: "flex" }}>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={react} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={python} alt="" />
               </div>
 
-              <div className="image main" style={{ display: "flex" }} >
+              <div style={{ display: "flex" }} >
                 <img src={css} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={scss} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={django} alt="" />
               </div>
             </div>
           </span>
 
 
-          <span style={{ display: "flex" }} >
+          <span style={{ display: "flex", margin: "0" }} >
             <div className="image main" style={{ display: "flex" }}>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={js} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={mongo} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={mysql} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={sqlite} alt="" />
               </div>
-              <div className="image main" style={{ display: "flex" }}>
+              <div style={{ display: "flex" }}>
                 <img src={git} alt="" />
               </div>
             </div>
 
           </span>
+
+
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
             eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
