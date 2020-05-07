@@ -209,8 +209,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
 
-          <span style={{ display: "flex" }} >
-            <div className="image main" style={{ display: "flex", margin: "0em" }}>
+          <span style={{ display: "flex", width: "100%vw" }} >
+            <div className="image main" style={{ display: "flex", marginBottom: "0em", justifyContent: "space-between" }}>
               <div style={{ display: "flex" }}>
                 <img src={react} alt="" />
               </div>
@@ -232,7 +232,7 @@ class Main extends React.Component {
 
 
           <span style={{ display: "flex" }} >
-            <div className="image main" style={{ display: "flex", marginTop: "0em" }}>
+            <div className="image main" style={{ display: "flex", marginTop: "0em", justifyContent: "space-between" }}>
               <div style={{ display: "flex" }}>
                 <img src={js} alt="" />
               </div>
