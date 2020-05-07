@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Code from "../assets/code.mp4"
 import Words from "../assets/words.mp4"
+import Developer from "../assets/words.mp4"
 
 class Video extends Component {
   constructor(props) {
@@ -12,8 +13,8 @@ class Video extends Component {
 
   render() {
     return (
-      <video muted="true" autoPlay="autoplay" loop="loop" style={{ width: "100%", height: "100%", objectFit: "cover" }}>
-        <source src={Words} type="video/mp4" />
+      <video muted="true" autoPlay="autoplay" loop="loop" style={{ width: "100%", height: "100%", objectFit: "fill" }}>
+        <source src={Code} type="video/mp4" />
       </video>
     )
   }
