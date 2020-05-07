@@ -209,7 +209,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
 
-          <span className="main" >
+          <span className="image main" >
             <div style={{ display: "flex", marginBottom: "1em", marginTop: "inherit", justifyContent: "space-between" }}>
               <div style={{ display: "flex", }}>
                 <img src={react} alt="" />
