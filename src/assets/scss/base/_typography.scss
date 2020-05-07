@@ -12,6 +12,9 @@ html {
 	@include breakpoint(xxsmall) {
 		font-size: 10pt;
 	}
+	::-webkit-scrollbar {
+		width: 0px; /* Remove scrollbar space */
+	}
 }
 
 body,

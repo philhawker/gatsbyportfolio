@@ -37,7 +37,7 @@
   }
 
   &:after {
-    @include vendor("transform", "scale(1.125)");
+    @include vendor("transform", "scale(1.05)");
     @include vendor(
       "transition",
       ("transform #{_duration(article)} ease-in-out", "filter #{_duration(article)} ease-in-out")
