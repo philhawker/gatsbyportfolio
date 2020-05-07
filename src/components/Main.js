@@ -205,12 +205,12 @@ class Main extends React.Component {
           className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none', marginBottom: "43px" }}
         >
           <h2 className="major">Skills</h2>
 
-          <span style={{ display: "flex" }} >
-            <div className="image main" style={{ display: "flex", marginBottom: "0px", marginTop: "inherit", justifyContent: "space-between" }}>
+          <span className="skills main" >
+            <div style={{ display: "flex", marginBottom: "1em", marginTop: "inherit", justifyContent: "space-between" }}>
               <div style={{ display: "flex" }}>
                 <img src={react} alt="" />
               </div>
@@ -228,11 +228,9 @@ class Main extends React.Component {
                 <img src={django} alt="" />
               </div>
             </div>
-          </span>
 
 
-          <span style={{ display: "flex" }} >
-            <div className="image main" style={{ display: "flex", marginTop: "0", justifyContent: "space-between" }}>
+            <div style={{ display: "flex", marginTop: "0", marginBottom: "2em", justifyContent: "space-between" }}>
               <div style={{ display: "flex" }}>
                 <img src={js} alt="" />
               </div>
@@ -249,7 +247,6 @@ class Main extends React.Component {
                 <img src={git} alt="" />
               </div>
             </div>
-
           </span>
 
 
