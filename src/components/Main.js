@@ -4,8 +4,18 @@ import family from '../images/family.jpg'
 import engagement from '../images/engagement.jpg'
 import fantasticfries from '../images/fantasticfries.png'
 import bottegaportfolio from '../images/bottegaportfolio.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic02 from "../images/pic02.jpg"
+import react from '../images/logos/react.png'
+import python from '../images/logos/python.png'
+import css from '../images/logos/css.png'
+import scss from '../images/logos/scss.png'
+import django from '../images/logos/django.png'
+import js from '../images/logos/js.png'
+import mongo from '../images/logos/mongo.png'
+import mysql from '../images/logos/mysql.png'
+import sqlite from '../images/logos/sqlite.png'
+import git from '../images/logos/git.png'
+
 
 class Main extends React.Component {
   render() {
@@ -198,8 +208,47 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
+          <span style={{ display: "flex" }} >
+            <div className="image main" style={{ display: "flex" }}>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={react} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={python} alt="" />
+              </div>
+
+              <div className="image main" style={{ display: "flex" }} >
+                <img src={css} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={scss} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={django} alt="" />
+              </div>
+            </div>
+          </span>
+
+
+          <span style={{ display: "flex" }} >
+            <div className="image main" style={{ display: "flex" }}>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={js} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={mongo} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={mysql} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={sqlite} alt="" />
+              </div>
+              <div className="image main" style={{ display: "flex" }}>
+                <img src={git} alt="" />
+              </div>
+            </div>
+
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
