@@ -232,7 +232,7 @@ class Main extends React.Component {
 
 
           <span style={{ display: "flex" }} >
-            <div className="image main" style={{ display: "flex", margin: "0em" }}>
+            <div className="image main" style={{ display: "flex", marginTop: "0em" }}>
               <div style={{ display: "flex" }}>
                 <img src={js} alt="" />
               </div>
