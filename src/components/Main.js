@@ -208,8 +208,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-          <span style={{ display: "flex", margin: "0" }} >
-            <div className="image main" style={{ display: "flex" }}>
+
+          <span style={{ display: "flex" }} >
+            <div className="image main" style={{ display: "flex", margin: "0em" }}>
               <div style={{ display: "flex" }}>
                 <img src={react} alt="" />
               </div>
@@ -230,8 +231,8 @@ class Main extends React.Component {
           </span>
 
 
-          <span style={{ display: "flex", margin: "0" }} >
-            <div className="image main" style={{ display: "flex" }}>
+          <span style={{ display: "flex" }} >
+            <div className="image main" style={{ display: "flex", margin: "0em" }}>
               <div style={{ display: "flex" }}>
                 <img src={js} alt="" />
               </div>
