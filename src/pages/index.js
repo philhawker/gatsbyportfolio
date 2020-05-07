@@ -109,6 +109,7 @@ class IndexPage extends React.Component {
           </div>
 
           {/* uncomment this to use static background image instead of video */}
+
           {/* <div id="bg" /> */}
 
           <div id="video">
