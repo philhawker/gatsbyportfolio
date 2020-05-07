@@ -205,13 +205,13 @@ class Main extends React.Component {
           className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none', marginBottom: "43px" }}
+          style={{ display: 'none', marginBottom: "43px", }}
         >
           <h2 className="major">Skills</h2>
 
-          <span className="skills main" >
+          <span className="main" >
             <div style={{ display: "flex", marginBottom: "1em", marginTop: "inherit", justifyContent: "space-between" }}>
-              <div style={{ display: "flex" }}>
+              <div style={{ display: "flex", }}>
                 <img src={react} alt="" />
               </div>
               <div style={{ display: "flex" }}>
