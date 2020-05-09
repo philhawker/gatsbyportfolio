@@ -108,7 +108,10 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
-          <button ><a href="https://philhawker-fries.netlify.app/">Visit Fantastic Fries</a></button>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <button ><a href="https://philhawker-fries.netlify.app/" target="_blank">Visit Fantastic Fries</a></button>
+            <button ><a href="https://github.com/philhawker/fantastic-fries-website" target="_blank">Source Code</a></button>
+          </div>
           {close}
         </article>
         <article
@@ -137,8 +140,10 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
-          <button ><a href="https://philhawker.herokuapp.com/">Visit My Bottega Course Portfolio</a></button>
-
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <button ><a href="https://philhawker.herokuapp.com/" target="_blank">Visit Bottega Portfolio</a></button>
+            <button ><a href="https://github.com/philhawker/philhawker" target="_blank">Source Code</a></button>
+          </div>
           {close}
         </article>
         <article
