@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import React, { Component } from 'react';
 import Typist from 'react-typist';
 
@@ -5,9 +7,8 @@ export default class TypeWriter extends Component {
 
   render() {
     return (
-      <Typist loop="loop"
-        startDelay={1500}
-
+      <Typist
+        startDelay={1800}
       >
         <span>I'm a husband</span>
         <Typist.Delay ms={800} />
