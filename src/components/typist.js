@@ -23,7 +23,7 @@ export default class TypeWriter extends Component {
         <Typist.Backspace count={12} delay={500} />
         <span>Front-End Developer</span>
         <Typist.Backspace count={19} delay={500} />
-        <span>Meme Enthusiast</span>
+        <span>meme enthusiast</span>
         <Typist.Backspace count={15} delay={800} />
         <span>down-to-earth nerd</span>
         <Typist.Backspace count={18} delay={800} />
