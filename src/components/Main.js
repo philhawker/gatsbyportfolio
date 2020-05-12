@@ -20,6 +20,7 @@ import game from "../images/game.jpg"
 import sadiebike from "../images/sadiebike.jpg"
 import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
+import portfolio from "../images/portfolio.png"
 
 
 class Main extends React.Component {
@@ -150,25 +151,20 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects 3</h2>
+          <h2 className="major">Gatsby.js Powered Portfolio</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={portfolio} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <p style={{ fontSize: "0.8rem" }}>
+            Gatsby.js, React, API authentication, HTML, SCSS, CSS Grid, Flexbox
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Despite being unfinished, this was my original portfolio design before deciding to redesign from the ground up.
           </p>
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
+            <button ><a href="https://phil-hawker.herokuapp.com/" target="_blank">Visit Original Portfolio</a></button>
+            <button ><a href="https://github.com/philhawker/phil-hawker" target="_blank">Source Code</a></button>
+          </div>
           {close}
         </article>
 
