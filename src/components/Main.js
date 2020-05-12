@@ -47,13 +47,11 @@ class Main extends React.Component {
             <img src={engagement} alt="" />
           </span>
           <p>
-            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilding a motorcycle engine to upgrading the family computer's ram, what is now considered pathetic, to 512 MB. Even as an adult, successfully assembling my daughters crib is chalked up as a win for me.
+            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. Even as an adult, successfully assembling my daughters crib was chalked up as a win for me.
           </p>
+
           <p>
-            I've always felt that these traits I had discovered were critical components to my overall happiness and success in my career, however, I had no idea what field these should be applied to. Until I took a leap of faith and began my development journey.
-          </p>
-          <p>
-            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. And it was hardcore! I love working with many different frameworks and libraries such as Flask, Django, Node, and most of all React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
+            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. I worked with and learned a ton of different technologies, frameworks, and languages. Since graduating, I've leaned towards a passion for React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
           </p>
           {close}
         </article>
@@ -68,15 +66,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={family} alt="" />
           </span>
-          <p>
-            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilding a motorcycle engine to upgrading the family computer's ram, what is now considered pathetic, to 512 MB. Even as an adult, successfully assembling my daughters crib is chalked up as a win for me.
-          </p>
-          <p>
-            I've always felt that these traits I had discovered were critical components to my overall happiness and success in my career, however, I had no idea what field these should be applied to. Until I took a leap of faith and began my development journey.
-          </p>
-          <p>
-            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. And it was hardcore! I love working with many different frameworks and libraries such as Flask, Django, Node, and most of all React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
-          </p>
+
           {close}
         </article>
         {/* END ABOUT */}
@@ -93,22 +83,14 @@ class Main extends React.Component {
           <span className="image main">
             <img src={fantasticfries} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <p style={{ fontSize: "0.8rem" }}>
+            HTML, CSS, Grid, FlexBox
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            A demo restaurant site that was built during my studies at Bottega Tech.
           </p>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "100px" }}>
             <button ><a href="https://philhawker-fries.netlify.app/" target="_blank">Visit Fantastic Fries</a></button>
             <button ><a href="https://github.com/philhawker/fantastic-fries-website" target="_blank">Source Code</a></button>
           </div>
@@ -125,22 +107,13 @@ class Main extends React.Component {
           <span className="image main">
             <img src={bottegaportfolio} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <p style={{ fontSize: "0.8rem" }}>
+            React, API, HTML, SCSS, CSS Grid, FlexBox
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            A React based Portfolio design utilizing API authentication, React Routing, and React Redux.
           </p>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "100px" }}>
             <button ><a href="https://philhawker.herokuapp.com/" target="_blank">Visit Bottega Portfolio</a></button>
             <button ><a href="https://github.com/philhawker/philhawker" target="_blank">Source Code</a></button>
           </div>
