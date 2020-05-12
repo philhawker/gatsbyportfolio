@@ -21,4 +21,5 @@ export default class TypeWriter extends Component {
       </Typist>
     );
   }
+
 }

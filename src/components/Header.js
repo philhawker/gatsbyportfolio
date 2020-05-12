@@ -6,7 +6,7 @@ import TypeWriter from "../components/typist"
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}} >
     <div className="logo">
-      <span className="icon">
+      <span className="icon fa-code">
 
       </span>
     </div>
