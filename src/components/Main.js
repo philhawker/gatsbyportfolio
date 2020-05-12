@@ -15,6 +15,7 @@ import mongo from '../images/logos/mongo.png'
 import mysql from '../images/logos/mysql.png'
 import sqlite from '../images/logos/sqlite.png'
 import git from '../images/logos/git.png'
+import TypeWriter from "./typist"
 
 
 class Main extends React.Component {
@@ -34,6 +35,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        <TypeWriter />
         {/* ABOUT */}
         <article
           id="about"
