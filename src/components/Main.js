@@ -302,26 +302,35 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://www.linkedin.com/in/philhawker/"
                 className="icon fa-linkedin"
+                target="_blank"
               >
                 <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/phil.hawker.7" className="icon fa-facebook">
+              <a href="https://www.facebook.com/phil.hawker.7"
+                className="icon fa-facebook"
+                target="_blank"
+              >
+
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://github.com/philhawker" className="icon fa-github">
+              <a href="https://github.com/philhawker"
+                className="icon fa-github"
+                target="_blank"
+              >
                 <span className="label">GitHub</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://www.instagram.com/phil_hawker/"
                 className="icon fa-instagram"
+                target="_blank"
               >
                 <span className="label">Instagram</span>
               </a>
