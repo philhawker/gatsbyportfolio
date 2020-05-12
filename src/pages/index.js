@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Video from "../components/video"
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import Video from "../components/video"
 
 
 class IndexPage extends React.Component {

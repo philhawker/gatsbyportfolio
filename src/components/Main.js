@@ -101,7 +101,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none', }}
         >
           <h2 className="major">Fantastic Fries</h2>
           <span className="image main">
@@ -120,6 +120,8 @@ class Main extends React.Component {
           </div>
           {close}
         </article>
+
+
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
@@ -143,6 +145,8 @@ class Main extends React.Component {
           </div>
           {close}
         </article>
+
+
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
@@ -171,6 +175,8 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+
+
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
