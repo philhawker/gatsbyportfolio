@@ -15,6 +15,12 @@ import mongo from '../images/logos/mongo.png'
 import mysql from '../images/logos/mysql.png'
 import sqlite from '../images/logos/sqlite.png'
 import git from '../images/logos/git.png'
+import firstday from "../images/firstday.jpg"
+import game from "../images/game.jpg"
+import sadiebike from "../images/sadiebike.jpeg"
+import holloween from "../images/holloween.jpg"
+import mom from "../images/mom.jpg"
+import fammix from "../images/fammix.jpg"
 
 
 class Main extends React.Component {
@@ -65,6 +71,21 @@ class Main extends React.Component {
           <h2 className="major">My Family</h2>
           <span className="image main">
             <img src={family} alt="" />
+          </span>
+          <span className="image main">
+            <img src={fammix} alt="" />
+          </span>
+          <span className="image main">
+            <img src={firstday} alt="" />
+          </span>
+          <span className="image main">
+            <img src={game} alt="" />
+          </span>
+          <span className="image main">
+            <img src={holloween} alt="" />
+          </span>
+          <span className="image main">
+            <img src={mom} alt="" />
           </span>
 
           {close}
