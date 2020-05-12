@@ -3,6 +3,15 @@ import React from 'react'
 import ph from "../images/logos/ph.png"
 import TypeWriter from "../components/typist"
 
+const close = (
+  <div
+    className="close"
+    onClick={() => {
+      this.props.onCloseArticle()
+    }}
+  ></div>
+)
+
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}} >
     <div className="logo">
@@ -13,8 +22,9 @@ const Header = props => (
 
     <div className="content">
       <div className="inner">
-        <h1>I'm Phil Hawker</h1>
+        <h1>Phil Hawker</h1>
         <TypeWriter />
+
       </div>
     </div>
     <nav>

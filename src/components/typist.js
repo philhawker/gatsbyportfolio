@@ -6,6 +6,7 @@ import Typist from 'react-typist';
 export default class TypeWriter extends Component {
 
   render() {
+
     return (
       <Typist
         startDelay={1800}

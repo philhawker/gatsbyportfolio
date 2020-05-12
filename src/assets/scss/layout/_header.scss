@@ -76,6 +76,7 @@
       padding: 3rem 2rem;
       max-height: 40rem;
       overflow: hidden;
+      font-size: 1rem;
 
       > :last-child {
         margin-bottom: 0;
@@ -83,7 +84,7 @@
     }
 
     p {
-      text-transform: uppercase;
+      // text-transform: uppercase;
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
       line-height: 2;
