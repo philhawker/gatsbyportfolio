@@ -17,7 +17,7 @@ import sqlite from '../images/logos/sqlite.png'
 import git from '../images/logos/git.png'
 import firstday from "../images/firstday.jpg"
 import game from "../images/game.jpg"
-import sadiebike from "../images/sadiebike.jpeg"
+import sadiebike from "../images/sadiebike.jpg"
 import holloween from "../images/holloween.jpg"
 import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
@@ -76,6 +76,9 @@ class Main extends React.Component {
             <img src={fammix} alt="" />
           </span>
           <span className="image main">
+            <img src={sadiebike} alt="" />
+          </span>
+          <span className="image main">
             <img src={firstday} alt="" />
           </span>
           <span className="image main">
@@ -111,7 +114,7 @@ class Main extends React.Component {
             A demo restaurant site that was built during my studies at Bottega Tech.
           </p>
 
-          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "100px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
             <button ><a href="https://philhawker-fries.netlify.app/" target="_blank">Visit Fantastic Fries</a></button>
             <button ><a href="https://github.com/philhawker/fantastic-fries-website" target="_blank">Source Code</a></button>
           </div>
@@ -134,7 +137,7 @@ class Main extends React.Component {
           <p>
             A React based Portfolio design utilizing API authentication, React Routing, and React Redux.
           </p>
-          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "100px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
             <button ><a href="https://philhawker.herokuapp.com/" target="_blank">Visit Bottega Portfolio</a></button>
             <button ><a href="https://github.com/philhawker/philhawker" target="_blank">Source Code</a></button>
           </div>
