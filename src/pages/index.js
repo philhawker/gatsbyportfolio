@@ -27,6 +27,7 @@ class IndexPage extends React.Component {
       this.setState({ loading: '' });
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
+
   }
 
   componentWillUnmount() {
@@ -114,12 +115,13 @@ class IndexPage extends React.Component {
           {/* <div id="bg" /> */}
 
           <div id="video">
+
             <Video />
+
           </div>
         </div>
       </Layout >
     )
   }
 }
-
 export default IndexPage

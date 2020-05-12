@@ -18,7 +18,6 @@ import git from '../images/logos/git.png'
 import firstday from "../images/firstday.jpg"
 import game from "../images/game.jpg"
 import sadiebike from "../images/sadiebike.jpg"
-import holloween from "../images/holloween.jpg"
 import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
 
@@ -83,9 +82,6 @@ class Main extends React.Component {
           </span>
           <span className="image main">
             <img src={game} alt="" />
-          </span>
-          <span className="image main">
-            <img src={holloween} alt="" />
           </span>
           <span className="image main">
             <img src={mom} alt="" />
