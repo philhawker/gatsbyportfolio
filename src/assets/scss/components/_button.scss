@@ -31,10 +31,11 @@ button,
 	&:hover {
 		background-color: _palette(fg-light);
 		color: _palette(bg);
-		font-weight: 700;
+		font-weight: 700 !important;
 	}
 
 	&:active {
+		font-weight: 700;
 		background-color: transparent;
 		color: white;
 	}

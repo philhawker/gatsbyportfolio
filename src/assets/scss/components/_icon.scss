@@ -2,7 +2,17 @@
 	@include icon;
 	border-bottom: none;
 	position: relative;
+	color: white;
+	background-color: _palette(bg);
+	&:hover,
+	&:focus {
+		font-weight: 700;
+	}
 
+	&:active {
+		background-color: _palette(fg);
+		color: white;
+	}
 	> .label {
 		display: none;
 	}

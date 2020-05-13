@@ -36,6 +36,8 @@ ul {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		color: white;
+		background-color: _palette(bg);
 
 		li {
 			display: inline-block;
@@ -53,12 +55,15 @@ ul {
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
+				font-weight: 700;
 
 				&:hover {
-					background-color: _palette(border-bg);
+					background-color: _palette(fg-light);
+					color: _palette(bg);
 				}
 
 				&:active {
+					font-weight: 700;
 					background-color: _palette(border-bg-alt);
 				}
 			}
