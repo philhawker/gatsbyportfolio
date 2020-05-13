@@ -21,6 +21,7 @@ import sadiebike from "../images/sadiebike.jpg"
 import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
 import portfolio from "../images/portfolio.jpg"
+import gatsby from "../images/logos/gatsby.png"
 
 
 class Main extends React.Component {
@@ -204,53 +205,85 @@ class Main extends React.Component {
           <span className="image main" >
             <div style={{ display: "flex", marginBottom: "1em", marginTop: "inherit", justifyContent: "space-between" }}>
               <div style={{ display: "flex", }}>
-                <img src={react} alt="" />
+                <lu>
+                  <img src={react} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>React</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={python} alt="" />
+                <lu>
+                  <img src={python} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>Python</div>
+                </lu>
               </div>
 
               <div style={{ display: "flex" }} >
-                <img src={css} alt="" />
+                <lu>
+                  <img src={css} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>CSS</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={scss} alt="" />
+                <lu>
+                  <img src={scss} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>SCSS</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={django} alt="" />
+                <lu>
+                  <img src={django} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>Django</div>
+                </lu>
               </div>
             </div>
 
 
             <div style={{ display: "flex", marginTop: "0", marginBottom: "2em", justifyContent: "space-between" }}>
               <div style={{ display: "flex" }}>
-                <img src={js} alt="" />
+                <lu>
+                  <img src={gatsby} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>Gatsby.js</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={mongo} alt="" />
+                <lu>
+                  <img src={js} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>JavaScript</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={mysql} alt="" />
+                <lu>
+                  <img src={mysql} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>MySQL</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={sqlite} alt="" />
+                <lu>
+                  <img src={sqlite} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>SQLite</div>
+                </lu>
               </div>
               <div style={{ display: "flex" }}>
-                <img src={git} alt="" />
+                <lu>
+                  <img src={git} alt="" />
+
+                  <div style={{ display: "flex", justifyContent: "center" }}>Git</div>
+                </lu>
               </div>
             </div>
           </span>
 
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+
           {close}
         </article>
         {/* END SKILLS */}
