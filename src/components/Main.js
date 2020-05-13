@@ -296,7 +296,8 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact Me</h2>
+          <h2 className="major">Don't Hesitate!</h2>
+          <p>I want to hear from you! <br />Especially your constructive feedback and design critique.</p>
           <form method="post" action="https://formspree.io/philhawker1211@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
