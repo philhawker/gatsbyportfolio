@@ -18,9 +18,9 @@
   text-align: center;
 
   // landing page background box
-  background: _palette(header-bg);
-  padding: 42px;
-  border-radius: 15px;
+  // background: _palette(header-bg);
+  // padding: 42px;
+  // border-radius: 15px;
 
   > * {
     @include vendor("transition", "opacity #{_duration(article)} ease-in-out");
