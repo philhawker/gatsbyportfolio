@@ -113,7 +113,7 @@ class Main extends React.Component {
           </p>
 
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <a href="https://philhawker-fries.netlify.app/" class="button" target="_blank">Visit Fantastic Fries</a>
+            <a href="https://philhawker-fries.netlify.app/" class="button special" target="_blank">Visit Fantastic Fries</a>
             <a href="https://github.com/philhawker/fantastic-fries-website" class="button" target="_blank">Source Code</a>
           </div>
           {close}
@@ -138,7 +138,7 @@ class Main extends React.Component {
             A React based Portfolio design utilizing API authentication, React Routing, and React Redux.
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <a href="https://philhawker.herokuapp.com/" class="button" target="_blank">Visit Bottega Portfolio</a>
+            <a href="https://philhawker.herokuapp.com/" class="button special" target="_blank">Visit Bottega Portfolio</a>
             <a href="https://github.com/philhawker/philhawker" class="button" target="_blank">Source Code</a>
           </div>
           {close}
@@ -163,7 +163,7 @@ class Main extends React.Component {
             Despite being unfinished, this was my original portfolio design before deciding to rebuild it to what is now my current portfolio.
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <a href="https://phil-hawker.herokuapp.com/" class="button" target="_blank">Visit Original Portfolio</a>
+            <a href="https://phil-hawker.herokuapp.com/" class="button special" target="_blank">Visit Original Portfolio</a>
             <a href="https://github.com/philhawker/phil-hawker" class="button" target="_blank">Source Code</a>
           </div>
           {close}
@@ -186,7 +186,7 @@ class Main extends React.Component {
             A simple title-sorting and databasing application utilizing Flask, including full CRUD functionality
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" class="button" target="_blank">Source Code</a>
+            <a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" class="button special" target="_blank">Source Code</a>
           </div>
           {close}
         </article>
