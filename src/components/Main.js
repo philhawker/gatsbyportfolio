@@ -113,8 +113,8 @@ class Main extends React.Component {
           </p>
 
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <button ><a href="https://philhawker-fries.netlify.app/" target="_blank">Visit Fantastic Fries</a></button>
-            <button ><a href="https://github.com/philhawker/fantastic-fries-website" target="_blank">Source Code</a></button>
+            <a href="https://philhawker-fries.netlify.app/" class="button" target="_blank">Visit Fantastic Fries</a>
+            <a href="https://github.com/philhawker/fantastic-fries-website" class="button" target="_blank">Source Code</a>
           </div>
           {close}
         </article>
@@ -138,8 +138,8 @@ class Main extends React.Component {
             A React based Portfolio design utilizing API authentication, React Routing, and React Redux.
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <button ><a href="https://philhawker.herokuapp.com/" target="_blank">Visit Bottega Portfolio</a></button>
-            <button ><a href="https://github.com/philhawker/philhawker" target="_blank">Source Code</a></button>
+            <a href="https://philhawker.herokuapp.com/" class="button" target="_blank">Visit Bottega Portfolio</a>
+            <a href="https://github.com/philhawker/philhawker" class="button" target="_blank">Source Code</a>
           </div>
           {close}
         </article>
@@ -163,8 +163,8 @@ class Main extends React.Component {
             Despite being unfinished, this was my original portfolio design before deciding to rebuild from the ground up to what is now my current portfolio.
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <button ><a href="https://phil-hawker.herokuapp.com/" target="_blank">Visit Original Portfolio</a></button>
-            <button ><a href="https://github.com/philhawker/phil-hawker" target="_blank">Source Code</a></button>
+            <a href="https://phil-hawker.herokuapp.com/" class="button" target="_blank">Visit Original Portfolio</a>
+            <a href="https://github.com/philhawker/phil-hawker" class="button" target="_blank">Source Code</a>
           </div>
           {close}
         </article>
@@ -186,7 +186,7 @@ class Main extends React.Component {
             A simple title-sorting and databasing application utilizing Flask, including full CRUD functionality
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
-            <button ><a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" target="_blank">Source Code</a></button>
+            <a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" class="button" target="_blank">Source Code</a>
           </div>
           {close}
         </article>
