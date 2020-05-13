@@ -15,7 +15,7 @@ const close = (
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}} >
     <div className="logo">
-      <span className="icon fa-code"  >
+      <span className="icon fa-code" style={{ background: "transparent" }}>
 
       </span>
     </div>
@@ -35,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About Me
           </button>
         </li>
         <li>
