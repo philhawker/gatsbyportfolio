@@ -48,10 +48,14 @@
 			text-indent: 4rem;
 			overflow: hidden;
 			white-space: nowrap;
+			transition: all 0.5s ease-in-out;
 
 			&:before {
-				@include vendor("transition", "background-color #{_duration(transition)} ease-in-out");
 				content: "";
+				transition: all 0.5s ease-in-out;
+
+				background-color: transparent;
+				color: _palette(bg);
 				display: block;
 				position: absolute;
 				top: 0.75rem;
@@ -69,12 +73,13 @@
 
 			&:hover {
 				&:before {
-					background-color: _palette(border-bg);
+					background-color: _palette(fg-light);
 				}
 			}
 
 			&:active {
 				&:before {
+					color: white;
 					background-color: _palette(border-bg-alt);
 				}
 			}
