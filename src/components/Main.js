@@ -104,7 +104,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={fantasticfries} alt="" />
           </span>
-          <p style={{ fontSize: "0.8rem" }}>
+          <p style={{ fontSize: "0.8rem", fontStyle: "italic" }}>
             HTML, CSS, Grid, FlexBox
           </p>
           <p>
@@ -130,7 +130,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={bottegaportfolio} alt="" />
           </span>
-          <p style={{ fontSize: "0.8rem" }}>
+          <p style={{ fontSize: "0.8rem", fontStyle: "italic" }}>
             React, API, HTML, SCSS, CSS Grid, FlexBox
           </p>
           <p>
@@ -155,7 +155,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={portfolio} alt="" />
           </span>
-          <p style={{ fontSize: "0.8rem" }}>
+          <p style={{ fontSize: "0.8rem", fontStyle: "italic" }}>
             Gatsby.js, React, API authentication, HTML, SCSS, CSS Grid, Flexbox
           </p>
           <p>
@@ -176,25 +176,17 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects 4</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <h2 className="major">"Movie Shelf" Database</h2>
+
+          <p style={{ fontSize: "0.8rem", fontStyle: "italic" }}>
+            Python, PIP, Flask, SQLAlchemy, CRUD, Jinja
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            A simple title-sorting and databasing application powered by Flask framework. Utilizes full CRUD functionality
           </p>
+          <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
+            <button ><a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" target="_blank">Source Code</a></button>
+          </div>
           {close}
         </article>
         {/* END PROJECTS */}
