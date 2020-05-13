@@ -160,7 +160,7 @@ class Main extends React.Component {
             Gatsby.js, React, API authentication, HTML, SCSS, CSS Grid, Flexbox
           </p>
           <p>
-            Despite being unfinished, this was my original portfolio design before deciding to rebuild from the ground up to what is now my current portfolio.
+            Despite being unfinished, this was my original portfolio design before deciding to rebuild it to what is now my current portfolio.
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
             <a href="https://phil-hawker.herokuapp.com/" class="button" target="_blank">Visit Original Portfolio</a>
