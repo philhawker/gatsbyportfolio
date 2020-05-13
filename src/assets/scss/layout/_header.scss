@@ -132,6 +132,7 @@
           &:focus {
             background-color: _palette(fg-light);
             color: _palette(bg);
+            font-weight: 700;
           }
 
           &:active {
