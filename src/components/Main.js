@@ -20,7 +20,7 @@ import game from "../images/game.jpg"
 import sadiebike from "../images/sadiebike.jpg"
 import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
-import portfolio from "../images/portfolio.png"
+import portfolio from "../images/portfolio.jpg"
 
 
 class Main extends React.Component {
