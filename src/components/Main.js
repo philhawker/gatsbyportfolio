@@ -182,7 +182,7 @@ class Main extends React.Component {
             Python, PIP, Flask, SQLAlchemy, CRUD, Jinja
           </p>
           <p>
-            A simple title-sorting and databasing application powered by Flask framework. Utilizes full CRUD functionality
+            A simple title-sorting and databasing application utilizing Flask, including full CRUD functionality
           </p>
           <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "60px" }}>
             <button ><a href="https://github.com/philhawker/MovieShelf-Simple-Movie-Database" target="_blank">Source Code</a></button>
