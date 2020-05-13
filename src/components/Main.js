@@ -296,15 +296,14 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Don't Hesitate!</h2>
-          <p>I want to hear from you! <br />Especially your constructive feedback and design critique.</p>
+          <h2 className="major">Message Me!</h2>
           <form method="post" action="https://formspree.io/philhawker1211@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Your Email</label>
               <input type="email" name="_replyto" id="email" />
 
             </div>
