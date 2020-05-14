@@ -309,7 +309,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="8"></textarea>
             </div>
             <ul className="actions">
               <li>
