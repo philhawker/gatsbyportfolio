@@ -11,7 +11,7 @@ class Video extends Component {
 
   render() {
     return (
-      <video muted="true" autoPlay="autoplay" loop="loop" style={{ width: "100%", height: "100%", objectFit: "fill" }}>
+      <video muted="true" autoPlay="autoplay" loop="loop" style={{ width: "100%", height: "116%", objectFit: "fill" }}>
         <source src={Newwords} type="video/mp4" />
       </video>
     )
