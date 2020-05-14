@@ -297,7 +297,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Message Me</h2>
-          <form method="post" action="https://formspree.io/philhawker1211@gmail.com">
+          <form style={{ paddingBottom: "30px" }} method="post" action="https://formspree.io/philhawker1211@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -320,6 +320,22 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+
+          <div style={{ paddingBottom: "30px" }}>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <h4 class="major" style={{ lineHeight: ".8" }}>Phone</h4>
+              <p style={{ paddingLeft: "30px", lineHeight: "1", fontSize: ".9em", letterSpacing: ".2em" }}>
+                801.874.0022
+              </p>
+            </div>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <h4 class="major" style={{ lineHeight: ".8" }}>Email</h4>
+              <p style={{ paddingLeft: "30px", lineHeight: "1", fontSize: ".9em", letterSpacing: ".15em" }}>
+                phil@philhawker.com
+              </p>
+            </div>
+          </div>
+
           <ul className="icons">
             <li>
               <a
