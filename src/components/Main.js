@@ -22,7 +22,7 @@ import mom from "../images/mom.jpg"
 import fammix from "../images/fammix.jpg"
 import portfolio from "../images/portfolio.jpg"
 import gatsby from "../images/logos/gatsby.png"
-
+import resume from "../images/resume.pdf"
 
 class Main extends React.Component {
   render() {
@@ -281,6 +281,9 @@ class Main extends React.Component {
               </div>
             </div>
           </span>
+          <div style={{ paddingBottom: "40px" }}>
+            <a href={resume} class="button special" target="blank" download="">Download Resume</a>
+          </div>
 
 
 
