@@ -61,7 +61,7 @@ class Main extends React.Component {
             After graduating from Bottega Tech's full-time 12 week Full-Stack Engineering course, I understand, comprehend, and have broad experience in many different technologies, frameworks, and languages. This experience has enabled me to develop a passion for React.
           </p>
           <p>
-            When not consumed by a development project, I’m riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying a game that has an incredible single player experience
+            When not consumed by a development project, I’m riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying a game that has an incredible single player experience.
           </p>
           {close}
         </article>
