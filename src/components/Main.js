@@ -54,11 +54,14 @@ class Main extends React.Component {
             <img src={engagement} alt="" />
           </span>
           <p>
-            Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. Even as an adult, successfully assembling my daughters crib was chalked up as a win for me.
+            When I was about 12-years-old, I discovered my fascination in building something, and actually seeing it function in the way I had intended. As an adult, I actually chalked up a win for myself when I successfully assembled my daughter’s crib.
           </p>
 
           <p>
-            I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. I worked with and learned a ton of different technologies, frameworks, and languages. Since graduating, I've leaned towards a passion for React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.
+            After graduating from Bottega Tech's full-time 12 week Full-Stack Engineering course, I understand, comprehend, and have broad experience in many different technologies, frameworks, and languages. This experience has enabled me to develop a passion for React.
+          </p>
+          <p>
+            When not consumed by a development project, I’m riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying a game that has an incredible single player experience
           </p>
           {close}
         </article>
