@@ -23,6 +23,7 @@ import fammix from "../images/fammix.jpg"
 import portfolio from "../images/portfolio.jpg"
 import gatsby from "../images/logos/gatsby.png"
 import resume from "../images/resume.pdf"
+import bottega from "../images/bottega.jpeg"
 
 class Main extends React.Component {
   render() {
@@ -203,7 +204,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none', marginBottom: "43px", }}
         >
-          <h2 className="major">Skills</h2>
+          <h2 className="major">Skills and Certificates</h2>
 
           <span className="image main" >
             <div style={{ display: "flex", marginBottom: "1em", marginTop: "inherit", justifyContent: "space-between" }}>
@@ -283,6 +284,9 @@ class Main extends React.Component {
                 </lu>
               </div>
             </div>
+          </span>
+          <span className="image main">
+            <img src={bottega} alt="" />
           </span>
           <div style={{ paddingBottom: "40px" }}>
             <a href={resume} class="button special" target="blank" download="">Download Resume</a>
