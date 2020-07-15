@@ -184,7 +184,7 @@ class Main extends React.Component {
           <h2 className="major">Video Playback Speed Changer</h2>
 
           <p style={{ fontSize: "0.8rem", fontStyle: "italic" }}>
-            Python, PIP, Chrome Dev, CRUD
+            JavaScript, Chrome Dev, CRUD
           </p>
           <p>
             A Chrome extension tool used to adjust the playback speed of any video detected on a webpage
